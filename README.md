@@ -1,7 +1,7 @@
 # 📊 Smart Retail Sales Analytics Platform
 
 ## 🔗 Live Demo
-https://smart-retail-sales-analytics-platform-zub5m8r3kubqr8zjvxvelu.streamlit.app/
+https://smart-retail-sales-analytics-platform-gnp8hf5afec6majfkd3bvg.streamlit.app/
 
 ## 🚀 Overview
 An interactive retail sales analytics dashboard built using Python, SQL, Streamlit, Plotly, Scikit-learn, and Power BI. The project helps analyze sales performance, visualize business insights, and predict future sales using machine learning.
