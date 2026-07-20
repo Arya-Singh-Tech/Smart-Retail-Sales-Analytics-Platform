@@ -1,8 +1,12 @@
 import sqlite3
 import pandas as pd
+import os
+import tempfile
 
 # Database connection
-conn = sqlite3.connect("retail.db", check_same_thread=False)
+DB_PATH = os.path.join(tempfile.gettempdir(), "retail.db")
+
+conn = sqlite3.connect(DB_PATH, check_same_thread=False)
 cursor = conn.cursor()
 
 def create_database(df):
